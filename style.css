@@ -1,0 +1,42 @@
+
+body{
+  margin:0;
+  font-family:Tajawal,Arial;
+  background:linear-gradient(135deg,#020617,#0f172a);
+  color:white;
+  text-align:center;
+}
+.hero{
+  padding:80px 20px;
+}
+.hero h1{
+  font-size:42px;
+}
+.hero button{
+  margin-top:20px;
+  padding:12px 30px;
+  border:none;
+  border-radius:8px;
+  background:#3b82f6;
+  color:white;
+  font-size:16px;
+  cursor:pointer;
+}
+.features{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+  gap:20px;
+  padding:40px;
+}
+.card{
+  background:#020617;
+  padding:30px;
+  border-radius:16px;
+  font-size:18px;
+  box-shadow:0 10px 30px rgba(0,0,0,.4);
+}
+footer{
+  padding:20px;
+  font-size:14px;
+  opacity:.7;
+}

@@ -1,0 +1,1 @@
+document.getElementById('startBtn').onclick=()=>alert('AI Platform PRO Demo');
